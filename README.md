@@ -1,27 +1,28 @@
-## DDB - Discord Data Bot 🤖
+# DDB - Discord Data Bot 🤖
 
-### Description
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+![Python Version](https://img.shields.io/badge/Python-3.6%2B-blue.svg)
 
-DDB (Discord Data Bot) is a Python program that logs messages sent in Discord channels and stores them in a SQLite database. It functions as a Discord bot, making use of the discord.py library to interact with the Discord API.
+**DDB (Discord Data Bot)** is a powerful Python program designed to log messages sent in Discord channels and efficiently store them in a SQLite database. It operates as a versatile Discord bot, harnessing the capabilities of the discord.py library to seamlessly interact with the Discord API.
 
 ## Installation
 
-#### Prerequisites
+### Prerequisites
 
-Before using DDB, ensure you have the following prerequisites installed:
+Before deploying **DDB**, ensure your environment meets the following prerequisites:
 
-- `Python` 3.6 or higher
-- `discord` library
-- `SQLite`
+- **Python** 3.6 or higher
+- **discord** library
+- **SQLite**
 
 ## Configuration
 
 1. Open the `config.ini` file.
-2. Provide your Discord bot token and specify the base directory.
+2. Provide your unique Discord bot token and specify the desired base directory.
 
 ## Usage
 
-To run the program, execute the following command:
+To launch the program, simply execute the following command:
 
 ```python3 DataBot.py```
 
